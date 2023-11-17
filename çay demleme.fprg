@@ -1,0 +1,102 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="x_user"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-11-17 06:28:07 &#214;S"/>
+        <attribute name="created" value="eF91c2VyO0RFU0tUT1AtMENNRzhUVDsyMDIzLTExLTE2OzA0OjI4OjEyIMOWUzszMTQ5"/>
+        <attribute name="edited" value="eF91c2VyO0RFU0tUT1AtMENNRzhUVDsyMDIzLTExLTE3OzA2OjE5OjA5IMOWUzsyO3hfdXNlcjtERVNLVE9QLTBDTUc4VFQ7MjAyMy0xMS0xNzswNjoxNzoyNSDDllM7NjQ4MA=="/>
+        <attribute name="edited" value="eF91c2VyO0RFU0tUT1AtMENNRzhUVDsyMDIzLTExLTE3OzA2OjI4OjA3IMOWUzszOzMyNjY="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a" type="Integer" array="False" size=""/>
+            <output expression="&quot;M&#252;kemmel &#231;ay yapma uygulamas&#305;na ho&#351; geldiniz&quot;" newline="True"/>
+            <output expression="&quot;&#246;&#287;renmenin en iyi yolu s&#252;rece aktif olarak dahil olmakt&#305;r sana soru sorarak bukkemel cay&#305; demlemeyi &#246;&#287;reticem  &quot;" newline="True"/>
+            <output expression="&quot;&#351;&#305;klar 1, 2, 3, olucak &#351;ekilde ayarland&#305;&quot;" newline="True"/>
+            <do expression="a=3||a=1">
+                <do expression="a&lt;0||a&gt;3">
+                    <output expression="&quot;4 ki&#351;eye &#231;ay demleyece&#287;ini varsay ve ki&#351;i ba&#351;&#305;na  0,5 L suyu &#231;aydanl&#305;&#287;&#305;n alt g&#246;z&#252;ne koy. Ka&#231; litre su koydun ? 1)(7L) 2)(2L) 3) (1L)&quot;" newline="True"/>
+                    <input variable="a"/>
+                    <if expression="a&gt;0&amp;&amp;a&lt;4">
+                        <then/>
+                        <else>
+                            <output expression="&quot;b&#246;yle bir se&#231;enek yok. tekrar dene&quot;" newline="True"/>
+                        </else>
+                    </if>
+                </do>
+                <if expression="a=2">
+                    <then>
+                        <output expression="&quot;tebrikler!!, suyu tam &#246;l&#231;&#252;s&#252;nde  koymay&#305; ba&#351;ard&#305;n&quot;" newline="True"/>
+                    </then>
+                    <else>
+                        <if expression="a=3">
+                            <then>
+                                <output expression="&quot;yeterince su koymad&#305;n bu y&#252;zden misafirlerine &#231;ay ikram edemedin tekrar dene&quot;" newline="True"/>
+                            </then>
+                            <else>
+                                <output expression="&quot;&#231;ok fazla su koydun misafirlerin su kaynayana kadar gitti &quot;" newline="True"/>
+                            </else>
+                        </if>
+                    </else>
+                </if>
+            </do>
+            <do expression="a=1||a=2">
+                <do expression="a&lt;0||a&gt;3">
+                    <output expression="&quot;suyu demli&#287;in alt k&#305;sm&#305;na doldurduktan sonra &#252;st k&#305;sm&#305;na  &#231;ay&#305;n demini koymam&#305;z gerekiyor. Ki&#351;i ba&#351;&#305;na 2 tepeleme &#231;ay ka&#351;&#305;&#287;&#305; &#231;ay koymal&#305;y&#305;z. 4 ki&#351;i i&#231;in ka&#231; ka&#351;&#305;k &#231;ay koymak icap eder? 1)(5)    ,2)(2)  ,3)(8)&quot;" newline="True"/>
+                    <input variable="a"/>
+                    <if expression="a&gt;0&amp;&amp;a&lt;4">
+                        <then/>
+                        <else>
+                            <output expression="&quot;b&#246;yle bir se&#231;enek. yok tekrar dene&quot;" newline="True"/>
+                        </else>
+                    </if>
+                </do>
+                <if expression="a =3">
+                    <then>
+                        <output expression="&quot;m&#252;kemmel!!,&#199;ay&#305;m&#305;z nerdeyse haz&#305;r &quot;" newline="True"/>
+                    </then>
+                    <else>
+                        <if expression="a=1">
+                            <then>
+                                <output expression="&quot;&#231;ay&#305;n &#231;ok a&#231;&#305;k oldu . Misafirlerin &#231;ay&#305;n hakk&#305;nda imam&#305;n abdest suyu benzetmesi yapt&#305;&quot;" newline="True"/>
+                            </then>
+                            <else>
+                                <output expression="&quot;&#231;ay&#305;n fazlas&#305;yla koyu oldu. Misafirler &#231;ay&#305;n hakk&#305;nda zift benzetmesi yapt&#305;  &quot;" newline="True"/>
+                            </else>
+                        </if>
+                    </else>
+                </if>
+            </do>
+            <do expression="a=3||a=1">
+                <do expression="a&lt;0||a&gt;3">
+                    <output expression="&quot;&#231;aydanl&#305;&#287;&#305;n alt&#305;ndaki su kaynad&#305;ktan sonra demli&#287;in d&#246;k&#252;lme a&#287;z&#305;na kadar su ile doldur. Ard&#305;ndan att&#305;&#287;&#305;n 2 ka&#351;&#305;k dem ba&#351;&#305;na 5dk olcak &#351;ekilde bekle. ka&#231; dakika sonra &#231;ay demlenir? 1)(10),     2)(20) , 3)  (35)&quot;" newline="True"/>
+                    <input variable="a"/>
+                    <if expression="a&gt;0&amp;&amp;a&lt;4">
+                        <then/>
+                        <else>
+                            <output expression="&quot;b&#246;yle bir se&#231;enek yok. tekrar dene&quot;" newline="True"/>
+                        </else>
+                    </if>
+                </do>
+                <if expression="a =2">
+                    <then>
+                        <output expression="&quot;&#231;ay&#305;m&#305;z haz&#305;r ve &#231;ok keyifli oldu. misafirlerin senin ne kadar maharetli oldu&#287;un hakk&#305;nda konu&#351;uyor &quot;" newline="True"/>
+                    </then>
+                    <else>
+                        <if expression="a=1">
+                            <then>
+                                <output expression="&quot;&#231;ay&#305;n yeterince demlenmedi ve s&#305;cak sudan hallice bir &#351;ey servis ettin&quot;" newline="True"/>
+                            </then>
+                            <else>
+                                <output expression="&quot;&#231;ay&#305;n ha&#351;land&#305; ve ac&#305; bir tat b&#305;rak&#305;yor kimse memnun kalmad&#305;  &quot;" newline="True"/>
+                            </else>
+                        </if>
+                    </else>
+                </if>
+            </do>
+        </body>
+    </function>
+</flowgorithm>
