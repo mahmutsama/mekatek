@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="x_user"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-11-07 07:18:45 &#214;S"/>
+        <attribute name="created" value="eF91c2VyO0RFU0tUT1AtMENNRzhUVDsyMDIzLTExLTA3OzA3OjEzOjA5IMOWUzszMTUy"/>
+        <attribute name="edited" value="eF91c2VyO0RFU0tUT1AtMENNRzhUVDsyMDIzLTExLTA3OzA3OjE4OjQ1IMOWUzsxOzMyNjU="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="ad" type="String" array="False" size=""/>
+            <declare name="t, a" type="Integer" array="False" size=""/>
+            <output expression="&quot;bir isim giriniz&quot;" newline="True"/>
+            <input variable="ad"/>
+            <output expression="&quot;ka&#231; kere tekrar edicek ?&quot;" newline="True"/>
+            <input variable="t"/>
+            <for variable="a" start="1" end="t" direction="inc" step="1">
+                <output expression="ad" newline="True"/>
+            </for>
+        </body>
+    </function>
+</flowgorithm>

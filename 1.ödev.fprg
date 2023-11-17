@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="x_user"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-11-08 12:40:30 &#214;S"/>
+        <attribute name="created" value="eF91c2VyO0RFU0tUT1AtMENNRzhUVDsyMDIzLTExLTA2OzA3OjI5OjUzIMOWUzszMTU3"/>
+        <attribute name="edited" value="eF91c2VyO0RFU0tUT1AtMENNRzhUVDsyMDIzLTExLTA4OzEyOjQwOjMwIMOWUzszOzMyNTM="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a, b, c, d, f" type="Real" array="False" size=""/>
+            <assign variable="f" expression="1"/>
+            <assign variable="c" expression="1"/>
+            <assign variable="b" expression="0"/>
+            <assign variable="d" expression="0"/>
+            <for variable="a" start="1" end="99" direction="inc" step="1">
+                <if expression="a mod 2 =0">
+                    <then>
+                        <assign variable="d" expression="d+a"/>
+                        <assign variable="f" expression="f*a"/>
+                    </then>
+                    <else>
+                        <assign variable="b" expression="b+a"/>
+                        <assign variable="c" expression="c*a"/>
+                    </else>
+                </if>
+            </for>
+            <output expression="&quot;tek say&#305;lar&#305;n toplam&#305;=  &quot; &amp; b &amp;   &quot;    tek say&#305;lar&#305;n &#231;arp&#305;m&#305;=  &quot; &amp;c" newline="True"/>
+            <output expression="&quot;&#231;ift say&#305;lar&#305;n toplam&#305;=&quot;   &amp; d &amp;   &quot;   &#231;ift say&#305;lar&#305;n &#231;arp&#305;m&#305;=&quot; &amp; f" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

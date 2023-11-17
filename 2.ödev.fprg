@@ -1,0 +1,59 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="x_user"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-11-12 05:53:59 &#214;S"/>
+        <attribute name="created" value="eF91c2VyO0RFU0tUT1AtMENNRzhUVDsyMDIzLTExLTA4OzEyOjMyOjM0IMOWUzszMTQ4"/>
+        <attribute name="edited" value="eF91c2VyO0RFU0tUT1AtMENNRzhUVDsyMDIzLTExLTA4OzEyOjM4OjA2IMOWUzsyO3hfdXNlcjtERVNLVE9QLTBDTUc4VFQ7MjAyMy0xMS0wNzswNzo0Njo1NCDDlsOWOzIuIMO2ZGV2LmZwcmc7NzgzOQ=="/>
+        <attribute name="edited" value="eF91c2VyO0RFU0tUT1AtMENNRzhUVDsyMDIzLTExLTEyOzA1OjUzOjU5IMOWUzszOzMyNjU="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a, b, c, d, e" type="Integer" array="False" size=""/>
+            <assign variable="e" expression="0"/>
+            <do expression="(a+b)&lt;c || (b+c)&lt;a || (c+a)&lt;b">
+                <assign variable="d" expression="0"/>
+                <assign variable="e" expression="e+1"/>
+                <if expression="e&gt;1">
+                    <then>
+                        <output expression="&quot;bu de&#287;erlerle &#252;&#231;gen kurulamaz de&#287;erleri tekrar giriniz&quot;" newline="True"/>
+                    </then>
+                    <else/>
+                </if>
+                <do expression="a&lt;0 || b&lt;0 || c&lt;0">
+                    <assign variable="d" expression="d+1"/>
+                    <if expression="d&gt;1">
+                        <then>
+                            <output expression="&quot;&#252;&#231;genin bir kenarlar&#305; negatif olamaz degerleri tekrar giriniz&quot;" newline="True"/>
+                        </then>
+                        <else/>
+                    </if>
+                    <output expression="&quot;1.kenar&#305; giriniz&quot;" newline="True"/>
+                    <input variable="a"/>
+                    <output expression="&quot;2.kenar&#305; giriniz&quot;" newline="True"/>
+                    <input variable="b"/>
+                    <output expression="&quot;3.kenar&#305; giriniz&quot;" newline="True"/>
+                    <input variable="c"/>
+                </do>
+            </do>
+            <if expression="a=b || c=b || c=a">
+                <then>
+                    <if expression="a=b &amp;&amp; b=c">
+                        <then>
+                            <output expression="&quot;e&#351;kenar &#252;&#231;gen&quot;" newline="True"/>
+                        </then>
+                        <else>
+                            <output expression="&quot;ikizkenar &#252;&#231;gen&quot;" newline="True"/>
+                        </else>
+                    </if>
+                </then>
+                <else>
+                    <output expression="&quot;&#231;e&#351;itkenar &#252;&#231;gen&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

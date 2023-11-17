@@ -1,0 +1,74 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="x_user"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-11-07 07:09:44 &#214;S"/>
+        <attribute name="created" value="eF91c2VyO0RFU0tUT1AtMENNRzhUVDsyMDIzLTExLTA3OzA2OjMwOjMxIMOWUzszMTQ1"/>
+        <attribute name="edited" value="eF91c2VyO0RFU0tUT1AtMENNRzhUVDsyMDIzLTExLTA3OzA3OjA5OjQ0IMOWUzsxOzMyNjQ="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <output expression="&quot;haftan&#305;n ka&#231;&#305;nc&#305; g&#252;n&#252;&quot;" newline="True"/>
+            <declare name="h" type="Integer" array="False" size=""/>
+            <input variable="h"/>
+            <if expression="h&lt;8 &amp;&amp; h&gt;0">
+                <then>
+                    <if expression="h=1">
+                        <then>
+                            <output expression="&quot;pazartesi&quot;" newline="True"/>
+                        </then>
+                        <else>
+                            <if expression="h=2">
+                                <then>
+                                    <output expression="&quot;sal&#305;&quot;" newline="True"/>
+                                </then>
+                                <else>
+                                    <if expression="h=3">
+                                        <then>
+                                            <output expression="&quot;&#231;ar&#351;amba&quot;" newline="True"/>
+                                        </then>
+                                        <else>
+                                            <if expression="h=4">
+                                                <then>
+                                                    <output expression="&quot;per&#351;embe&quot;" newline="True"/>
+                                                </then>
+                                                <else>
+                                                    <if expression="h=5">
+                                                        <then>
+                                                            <output expression="&quot;cuma&quot;" newline="True"/>
+                                                        </then>
+                                                        <else>
+                                                            <if expression="h=6">
+                                                                <then>
+                                                                    <output expression="&quot;cumartesi&quot;" newline="True"/>
+                                                                </then>
+                                                                <else>
+                                                                    <if expression="h=7">
+                                                                        <then>
+                                                                            <output expression="&quot;pazar&quot;" newline="True"/>
+                                                                        </then>
+                                                                        <else/>
+                                                                    </if>
+                                                                </else>
+                                                            </if>
+                                                        </else>
+                                                    </if>
+                                                </else>
+                                            </if>
+                                        </else>
+                                    </if>
+                                </else>
+                            </if>
+                        </else>
+                    </if>
+                </then>
+                <else>
+                    <output expression="&quot;1 haftada yedi g&#252;n vard&#305;r&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
